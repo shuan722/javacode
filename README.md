@@ -39,7 +39,6 @@ git config https.proxy 'https://proxy.server:port'
 
 ## 4. 高效拷贝文件
 
-![img.png](images/img.png)
 
 ```mermaid
 flowchart TD
