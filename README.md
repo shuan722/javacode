@@ -29,8 +29,13 @@ git push -u origin master
 
 ### 仓库级配置代理
 ```shell
+# 添加
 git config http.proxy 'http://proxy.server:port'
 git config https.proxy 'https://proxy.server:port'
+
+# 取消
+git config --unset http.proxy
+git config --unset https.proxy
 ```
 
 ## 2. Java处理excel表格
